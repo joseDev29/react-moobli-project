@@ -1,0 +1,75 @@
+.home__about-us p {
+  margin-top: var(--space-3);
+}
+
+.home__about-us a {
+  margin-top: var(--space-2);
+  font-weight: 500;
+  transition-property: font-weight;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in;
+}
+
+.home__about-us a:hover {
+  font-weight: 600;
+}
+
+.home__products {
+  margin-top: var(--space-7);
+}
+
+.home__product-list {
+  margin: var(--space-4) auto;
+  width: min-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+}
+
+.product-card {
+  width: 350px;
+  min-width: 300px;
+  height: 500px;
+  background-color: var(--secondary-color);
+}
+
+.product-card > img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.product-card > div {
+  height: calc(100% - 220px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--space-4);
+  justify-content: center;
+}
+
+.product-card > div > p {
+  margin-top: var(--space-3);
+  text-align: left;
+}
+
+.product-card > div > a {
+  margin-top: var(--space-2);
+  padding: var(--space-1) var(--space-4);
+  align-self: flex-end;
+  color: var(--layout-color);
+  background-color: var(--primary-color);
+  font-weight: 500;
+  border: 2px solid var(--primary-color);
+  font-weight: 600;
+  transition-property: background color;
+  transition-duration: 300ms;
+}
+
+.product-card > div > a:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.product-card--horizontal {
+}

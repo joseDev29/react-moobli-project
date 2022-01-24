@@ -1,0 +1,93 @@
+:root {
+  --layout-color: #cec5c0;
+  --primary-color: #1c1d1e;
+  --secondary-color: #c3bab1;
+  --spacer: 1.6rem;
+  --space-1: calc(var(--spacer) * 0.25); /* 4px */
+  --space-2: calc(var(--spacer) * 0.5); /* 8px */
+  --space-3: calc(var(--spacer)); /* 16px */
+  --space-4: calc(var(--spacer) * 1.5); /* 24px */
+  --space-5: calc(var(--spacer) * 2); /* 32px */
+  --space-6: calc(var(--spacer) * 3); /* 48px */
+  --space-7: calc(var(--spacer) * 4); /* 64px */
+  --space-8: calc(var(--spacer) * 5); /* 64px */
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--layout-color);
+}
+
+h1 {
+  font-size: 3.2rem;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-size: 2.4rem;
+  color: var(--primary-color);
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+}
+
+h4 {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+}
+
+h5 {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
+p {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+}
+
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+button {
+  font-size: 1.6rem;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+
+#root {
+  padding: var(--space-4) 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color-primary {
+  color: var(--primary-color);
+}
+
+.border-primary {
+  border-color: var(--primary-color);
+}
+
+.main {
+  margin-top: var(--space-6);
+}
